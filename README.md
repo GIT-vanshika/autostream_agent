@@ -174,10 +174,9 @@ text
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/GIT-vanshika/autostream_agent.git
 cd autostream-agent
-2. Set Up Virtual Environment
+### 2. Set Up Virtual Environment
 bash
 # Using conda
 conda create -n autostream python=3.10 -y
@@ -186,20 +185,20 @@ conda activate autostream
 # OR using venv
 python -m venv venv
 source venv/bin/activate 
-3. Install Dependencies
+### 3. Install Dependencies
 bash
 pip install -r requirements.txt
-4. Configure API Key
+### 4. Configure API Key
 Create a .env file in the project root:
 
 bash
 GOOGLE_API_KEY=your_gemini_api_key_here
-5. Run the Streamlit UI
+### 5. Run the Streamlit UI
 bash
 streamlit run app_streamlit.py
 Open your browser at http://localhost:8501 and start chatting!
 
-6. (Optional) Run CLI Version
+### 6. (Optional) Run CLI Version
 bash
 python app.py
 ☁️ Deploy to Streamlit Cloud
@@ -223,10 +222,10 @@ text
 GOOGLE_API_KEY = "your_gemini_api_key_here"
 Click Deploy
 
-Your app will be live at https://<app-name>.streamlit.app/ within 2-3 minutes.
+Your app will be live at [https://<app-name>.streamlit.app/ within 2-3 minutes.](https://git-vanshika-autostream-agent-app-streamlit-uzb7e0.streamlit.app/)
 
 📸 Demo
-Chat Interface
+![alt text](image.png)
 Chat UI
 Clean Streamlit chat interface with message history
 
@@ -240,7 +239,7 @@ RAG-powered accurate responses from knowledge base
 
 Note: Replace placeholder screenshots with your actual UI images in the screenshots/ folder.
 
-📁 Project Structure
+### 📁 Project Structure
 text
 autostream-agent/
 ├── agent/
@@ -268,21 +267,21 @@ autostream-agent/
 ├── requirements.txt  
 ├── README.md        
 └── LICENSE               
-🔧 Configuration
+## 🔧 Configuration
 Environment Variables
 Variable	Description	Required
 GOOGLE_API_KEY	Google AI Studio API key for Gemini	✅ Yes
 Customizing the Knowledge Base
 Add or modify files in rag/docs/:
 
-text
+## text
 rag/docs/
 ├── pricing.txt       
 ├── features.txt      
 └── policies.txt      
 The RAG retriever will automatically load all .txt files.
 
-🧪 Testing
+## 🧪 Testing
 Test LLM Connection
 bash
 python test_llm.py
@@ -314,7 +313,7 @@ text
 
  Agent memory across sessions using persistent storage
 
-👩‍💻 Author
+## 👩‍💻 Author
 Vanshika
 Data Science| AI/ML Enthusiast
 
@@ -324,10 +323,10 @@ LinkedIn: https://www.linkedin.com/in/vanshika-reja/
 
 Built as part of the GenAI Assignment to deonstrate production-ready AI agent development.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-<div align="center">
+
 ⭐ Star this repo if you found it helpful!
 
 Made with ❤️ for the future of AI-powered customer engagement
