@@ -229,6 +229,10 @@ Your app will be live at [https://<app-name>.streamlit.app/ within 2-3 minutes.]
 Chat UI
 Clean Streamlit chat interface with message history
 
+## 🎥 Demo Video
+Watch a 2-minute walkthrough of the agent here:
+https://www.loom.com/share/64b5e174182c4b79bd4be19c3226acaa
+
 Lead Capture Flow
 Lead Capture
 Multi-turn dialogue for collecting name, email, and platform
